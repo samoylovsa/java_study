@@ -7,10 +7,10 @@ public class GroupCreationTest extends TestBase {
 
     @Test
     public void testGroupCreation() throws Exception {
-        app.goToPageGroup();
-        app.initGroupCreation();
-        app.fillGroupForm(new GroupData("Test4", "t5", "t6"));
-        app.submitGroupCreation();
-        app.returnToGroupPage();
+        app.getNavigationManager().goToPageGroup();
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupForm(new GroupData("Test4", "t5", "t6"));
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().returnToGroupPage();
     }
 }
