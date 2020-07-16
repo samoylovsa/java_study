@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95f21672-3879-4451-816e-4151d26552a9" name="Default Changelist" comment="" />
+    <list default="true" id="95f21672-3879-4451-816e-4151d26552a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandBox/src/test/java/ru/stqa/pft/sandBox/SquareTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandBox/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sandBox/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandBox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandBox/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/addressbook-web-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sandBox">
       <ProjectState />
     </projectState>
@@ -15,19 +28,37 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/sandBox">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sandBox" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cJYQZKsQ6itFR7b5rFC0LpMEno" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -36,12 +67,77 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandBox/build.gradle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
+  </component>
+  <component name="RunManager" selected="TestNG.GroupCreationTest">
+    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.GroupCreationTests&quot; --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GroupCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.GroupCreationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.GroupCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="Gradle.GroupCreationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,19 +152,42 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="227" y="21" key="#Project_Structure" timestamp="1590249904688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="227" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590249904688" />
-    <state x="457" y="67" key="FileChooserDialogImpl" timestamp="1590250319506">
+    <state x="457" y="67" key="FileChooserDialogImpl" timestamp="1594843707016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="457" y="67" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590250319506" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1590250177043">
+    <state x="457" y="67" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594843707016" />
+    <state width="1323" height="299" key="GridCell.Tab.0.bottom" timestamp="1594915133088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590250177043" />
+    <state width="1323" height="299" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594915133088" />
+    <state width="1323" height="299" key="GridCell.Tab.0.center" timestamp="1594915133088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="299" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594915133088" />
+    <state width="1323" height="299" key="GridCell.Tab.0.left" timestamp="1594915133088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="299" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594915133088" />
+    <state width="1323" height="299" key="GridCell.Tab.0.right" timestamp="1594915133088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="299" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594915133088" />
+    <state x="275" y="63" key="NewModule_or_Project.wizard" timestamp="1594843711296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="63" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1594843711296" />
+    <state x="90" y="0" key="SettingsEditor" timestamp="1594914189394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="90" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594914189394" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590250224297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -77,5 +196,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590250310794" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594755395418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1594755395418" />
   </component>
 </project>
