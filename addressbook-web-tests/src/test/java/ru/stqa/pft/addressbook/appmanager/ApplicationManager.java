@@ -1,13 +1,17 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
 
 public class ApplicationManager {
+    private String browser;
     protected WebDriver driver;
 
     private SessionHelper sessionHelper;
@@ -18,9 +22,18 @@ public class ApplicationManager {
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
+
     public void init() {
-        System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
-        driver = new FirefoxDriver();
+        if (browser == BrowserType.FIREFOX) {
+            driver = new FirefoxDriver();
+        } else if (browser == BrowserType.CHROME) {
+            driver = new ChromeDriver();
+        } else if (browser == BrowserType.IE) {
+            driver = new InternetExplorerDriver();
+        }
         baseUrl = "https://www.google.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(driver);

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f21672-3879-4451-816e-4151d26552a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ChromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +82,23 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupModificationTest">
-    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.GroupCreationTests&quot; --stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="TestNG.ChromeTest">
+    <configuration name="ChromeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ChromeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DeleteGroupTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
@@ -168,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupModificationTest" />
+        <item itemvalue="TestNG.ChromeTest" />
         <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupModificationTest" />
         <item itemvalue="TestNG.DeleteGroupTest" />
         <item itemvalue="TestNG.GroupCreationTests" />
-        <item itemvalue="Gradle.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -213,22 +215,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="67" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594843707016" />
-    <state width="1323" height="299" key="GridCell.Tab.0.bottom" timestamp="1595177603075">
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1595184956161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="299" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595177603075" />
-    <state width="1323" height="299" key="GridCell.Tab.0.center" timestamp="1595177603075">
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595184956161" />
+    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1595184956161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="299" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595177603075" />
-    <state width="1323" height="299" key="GridCell.Tab.0.left" timestamp="1595177603075">
+    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595184956161" />
+    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1595184956160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="299" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595177603075" />
-    <state width="1323" height="299" key="GridCell.Tab.0.right" timestamp="1595177603075">
+    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595184956160" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1595184956161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="299" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595177603075" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595184956161" />
     <state x="275" y="63" key="NewModule_or_Project.wizard" timestamp="1594843711296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -257,6 +259,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590250310794" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1595183195750">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595183195750" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594755395418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
